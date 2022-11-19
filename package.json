@@ -1,0 +1,29 @@
+{
+  "name": "badass-hardhat-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chain": "hardhat node --network hardhat --no-deploy",
+    "deploy": "hardhat deploy --network localhost --export ./contract-addresses.json --watch",
+    "deploy-goerli": "hardhat deploy --network goerli --export ./contract-addresses-goerli.json --gasprice 200000000000",
+    "verify-goerli": "hardhat --network goerli etherscan-verify",
+    "deploy-mainnet": "hardhat deploy --network mainnet --export ./contract-addresses-mainnet.json --gasprice 200000000000",
+    "verify-mainnet": "hardhat --network mainnet etherscan-verify",
+    "clean": "hardhat clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.2",
+    "hardhat-deploy": "^0.11.20",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0"
+  }
+}
