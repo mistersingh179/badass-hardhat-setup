@@ -43,6 +43,15 @@ In this video we will go through the entire setup process. We will:
 3. Next we will deploy them to testnet & have them be verified.
 4. Finally, we will manually test them using [sidekik.xyz](https://sidekik.xyz) & [etherscan.io](https://etherscan.io/).
 
+## Common Errors
+
+1. When doing `npm i` or `npm run chain` you are getting error:
+```
+Error HH801: Plugin @nomicfoundation/hardhat-toolbox requires the following dependencies to be installed: @nomicfoundation/hardhat-network-helpers, @nomicfoundation/hardhat-chai-matchers, @nomiclabs/hardhat-ethers, @nomiclabs/hardhat-etherscan, @types/chai, @types/mocha, @typechain/ethers-v5, @typechain/hardhat, chai, hardhat-gas-reporter, solidity-coverage, ts-node, typechain, typescript.
+Please run: npm install --save-dev "@nomicfoundation/hardhat-network-helpers@^1.0.0" "@nomicfoundation/hardhat-chai-matchers@^1.0.0" "@nomiclabs/hardhat-ethers@^2.0.0" "@nomiclabs/hardhat-etherscan@^3.0.0" "@types/chai@^4.2.0" "@types/mocha@^9.1.0" "@typechain/ethers-v5@^10.1.0" "@typechain/hardhat@^6.1.2" "chai@^4.2.0" "hardhat-gas-reporter@^1.0.8" "solidity-coverage@^0.8.1" "ts-node@>=8.0.0" "typechain@^8.1.0" "typescript@>=4.5.0"
+```
+The solution is to just install ☝️ the missing dependencies the error is telling you to install.
+
 ## References
 
 1. [hardhat-deploy](https://github.com/wighawag/hardhat-deploy)
