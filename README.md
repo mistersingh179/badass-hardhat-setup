@@ -33,7 +33,7 @@ In this video you will see what your setup will become like.
 
 ## Keys
 
-Copy `.env.example` and create your owne `.env` file. In this file add your keys.
+Copy `.env.example` and setup your own `.env` file. In this file add your keys. **Very Important** to use your own keys.
 
 ## Complete video
 
