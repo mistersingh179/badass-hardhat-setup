@@ -13,6 +13,8 @@ This is all possible because of 🎉🎉 [hardhat-deploy](https://github.com/wig
 
 In this video you will see what your setup will become like.
 
+[![Watch the video](https://img.youtube.com/vi/LA2EZPCyLZI/0.jpg)](https://youtu.be/LA2EZPCyLZI)
+
 ## How to add new contracts
 
 1. Add your contracts by creating a new `*.sol` file in the `contracts` directory.
@@ -34,14 +36,6 @@ In this video you will see what your setup will become like.
 ## Keys
 
 Copy `.env.example` and setup your own `.env` file. In this file add your keys. **Very Important** to use your own keys.
-
-## Complete video
-
-In this video we will go through the entire setup process. We will:
-1. install all the needed plugins & configure them.
-2. Then we will write our first 2 contracts and their deployment scripts.
-3. Next we will deploy them to testnet & have them be verified.
-4. Finally, we will manually test them using [sidekik.xyz](https://sidekik.xyz) & [etherscan.io](https://etherscan.io/).
 
 ## Common Errors
 
